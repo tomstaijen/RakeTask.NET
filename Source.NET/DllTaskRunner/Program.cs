@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DllTaskRunner
+namespace TaskRunner
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Rake Task Runner v0.9");
+            if (args.Length < 2)
+            {
+                Console.WriteLine("Usage: TaskRunner.exe <dllPath> <task>");
+                Environment.Exit(0);
+            }
+
+
             string path = args[0];
             string task = args[1];
 

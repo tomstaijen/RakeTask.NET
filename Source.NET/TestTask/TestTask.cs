@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RakeTask;
+using TaskRunner.Task;
 
 namespace TestTask
 {
-    public class TestTask : IRakeTask
+    public class TestTask : ITask
     {
-        public bool Execute(IDictionary<string, string> parameters)
+        public string Param1
         {
-            if (parameters.Count == 0)
-                return false; 
-
-            foreach( var v in parameters)
+            set
             {
-                Console.WriteLine(string.Format("{0} => {1}", v.Key, v.Value));
+                Console.WriteLine("Param1 set to " + value);
             }
+        }
+        
+        public bool Execute()
+        {
             return true;
         }
     }

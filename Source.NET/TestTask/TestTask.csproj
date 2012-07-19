@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RakeTask\RakeTask.csproj">
+    <ProjectReference Include="..\RakeTask\TaskRunner.Task.csproj">
       <Project>{A1D8844A-FC9C-4C15-B1EC-F13CD25218CF}</Project>
-      <Name>RakeTask</Name>
+      <Name>TaskRunner.Task</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllTaskRunner", "DllTaskRunner\DllTaskRunner.csproj", "{D944DAD6-24EF-4ADD-9E20-605AE0D20BF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunner", "DllTaskRunner\TaskRunner.csproj", "{D944DAD6-24EF-4ADD-9E20-605AE0D20BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RakeTask", "RakeTask\RakeTask.csproj", "{A1D8844A-FC9C-4C15-B1EC-F13CD25218CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunner.Task", "RakeTask\TaskRunner.Task.csproj", "{A1D8844A-FC9C-4C15-B1EC-F13CD25218CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask", "TestTask\TestTask.csproj", "{48145DC7-DC84-4CA2-B250-D0AB54C5DEBE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateSQLScripts", "GenerateSQLScripts\GenerateSQLScripts.csproj", "{9D7F83D7-5B72-4342-8D85-1869F5BA9420}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NControl.NHibernate", "..\..\..\..\Repositories\NControl\Source\NControl\NControl.NHibernate\NControl.NHibernate.csproj", "{43E766B8-0A7C-4D69-A2B8-4181018799B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,26 +47,6 @@ Global
 		{48145DC7-DC84-4CA2-B250-D0AB54C5DEBE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{48145DC7-DC84-4CA2-B250-D0AB54C5DEBE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{48145DC7-DC84-4CA2-B250-D0AB54C5DEBE}.Release|x86.ActiveCfg = Release|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{9D7F83D7-5B72-4342-8D85-1869F5BA9420}.Release|x86.ActiveCfg = Release|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{43E766B8-0A7C-4D69-A2B8-4181018799B7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
